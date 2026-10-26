@@ -2,6 +2,9 @@
 
 **82.7% on LoCoMo (all 1,540 scored questions), answered by a 20B open model running on a laptop.**
 
+> [!NOTE]
+> This is a results-only repo. I'm keeping the Synapse engine code private, so there's nothing here to install or run. What you'll find instead: every answer and every grade from four full benchmark runs, how they were measured, and a short script so you can check my numbers yourself (see [Check it yourself](#check-it-yourself)).
+
 AI assistants forget. Each conversation starts from zero unless something stores what was said and hands the right parts back later. Most memory systems that do this run in the cloud and answer with large cloud models, which rules them out for teams whose data cannot leave the building: law firms, hospitals, defense contractors.
 
 Synapse Memory is a memory engine built for those teams. It runs entirely on the user's own machine. On LoCoMo, the standard benchmark for long-term conversational memory, it scores 82.7% with a 20B open model on a MacBook Pro. That is within half a point of the best published result on the same answer model, and ahead of several systems that answer with cloud models.
